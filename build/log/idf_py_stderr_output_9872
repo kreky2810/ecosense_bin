@@ -1,0 +1,11 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\kgasp\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python
+CMake Error at C:/Users/kgasp/esp/v5.5.1/esp-idf/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'EMBED_FILSES' required by component 'main':
+  unknown name.
+Call Stack (most recent call first):
+  C:/Users/kgasp/esp/v5.5.1/esp-idf/tools/cmake/build.cmake:371 (__build_resolve_and_add_req)
+  C:/Users/kgasp/esp/v5.5.1/esp-idf/tools/cmake/build.cmake:685 (__build_expand_requirements)
+  C:/Users/kgasp/esp/v5.5.1/esp-idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:11 (project)
+
+

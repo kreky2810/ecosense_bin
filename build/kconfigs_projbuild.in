@@ -1,0 +1,6 @@
+source "C:/Users/kgasp/esp/v5.5.1/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/kgasp/esp/v5.5.1/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/kgasp/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/kgasp/esp/v5.5.1/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/kgasp/esp/v5.5.1/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/main/Kconfig.projbuild"

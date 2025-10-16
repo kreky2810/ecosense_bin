@@ -1,0 +1,24 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\kgasp\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python
+-- Minimal build - OFF
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32p4
+NOTICE: Using component placed at C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_lcd_jd9365 for dependency "espressif/esp_lcd_jd9365", specified in C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\main\idf_component.yml
+NOTICE: Using component placed at C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor for dependency "espressif/esp_cam_sensor"(introduced by component "espressif/esp_video"), specified in C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\main\idf_component.yml
+NOTICE: Using component placed at C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor for dependency "espressif/esp_cam_sensor"(introduced by component "espressif/esp_video"), specified in C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\main\idf_component.yml
+NOTICE: Using component placed at C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor for dependency "espressif/esp_cam_sensor"(introduced by component "espressif/esp_video"), specified in C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\main\idf_component.yml
+NOTICE: Using component placed at C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor for dependency "espressif/esp_cam_sensor"(introduced by component "espressif/esp_video"), specified in C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\main\idf_component.yml
+NOTICE: Processing 11 dependencies:
+NOTICE: [1/11] espressif/cmake_utilities (0.5.3)
+NOTICE: [2/11] espressif/esp-dl (3.1.5)
+NOTICE: [3/11] espressif/esp_cam_sensor (0.9.0) (C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor)
+NOTICE: [4/11] espressif/esp_h264 (1.1.3)
+NOTICE: [5/11] espressif/esp_ipa (0.2.0)
+NOTICE: [6/11] espressif/esp_lcd_ek79007 (1.0.3)
+NOTICE: [7/11] espressif/esp_lcd_jd9365 (1.0.2) (C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_lcd_jd9365)
+NOTICE: [8/11] espressif/esp_new_jpeg (0.6.1)
+NOTICE: [9/11] espressif/esp_sccb_intf (0.0.5)
+NOTICE: [10/11] espressif/esp_video (0.8.0~3)
+NOTICE: [11/11] idf (5.5.1)
+-- Configuring incomplete, errors occurred!

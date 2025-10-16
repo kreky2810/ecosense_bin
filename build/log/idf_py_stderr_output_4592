@@ -1,0 +1,145 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\kgasp\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 227, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 461, in from_csv
+    raise InputError("Size field can't be empty")
+gen_esp32part.InputError: Size field can't be empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 411, in <module>
+    main()
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 380, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 96, in __init__
+    partition_table, _ = gen.PartitionTable.from_file(f)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 208, in from_file
+    return cls.from_csv(str_data), False
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 229, in from_csv
+    raise InputError(
+gen_esp32part.InputError: Error at line 5: Size field can't be empty
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 227, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 461, in from_csv
+    raise InputError("Size field can't be empty")
+gen_esp32part.InputError: Size field can't be empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 411, in <module>
+    main()
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 380, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 96, in __init__
+    partition_table, _ = gen.PartitionTable.from_file(f)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 208, in from_file
+    return cls.from_csv(str_data), False
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 229, in from_csv
+    raise InputError(
+gen_esp32part.InputError: Error at line 5: Size field can't be empty
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 227, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 461, in from_csv
+    raise InputError("Size field can't be empty")
+gen_esp32part.InputError: Size field can't be empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 411, in <module>
+    main()
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 380, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 96, in __init__
+    partition_table, _ = gen.PartitionTable.from_file(f)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 208, in from_file
+    return cls.from_csv(str_data), False
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 229, in from_csv
+    raise InputError(
+gen_esp32part.InputError: Error at line 5: Size field can't be empty
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 227, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 461, in from_csv
+    raise InputError("Size field can't be empty")
+gen_esp32part.InputError: Size field can't be empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 411, in <module>
+    main()
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 380, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 96, in __init__
+    partition_table, _ = gen.PartitionTable.from_file(f)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 208, in from_file
+    return cls.from_csv(str_data), False
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 229, in from_csv
+    raise InputError(
+gen_esp32part.InputError: Error at line 5: Size field can't be empty
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 227, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 461, in from_csv
+    raise InputError("Size field can't be empty")
+gen_esp32part.InputError: Size field can't be empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 411, in <module>
+    main()
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 380, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\parttool.py", line 96, in __init__
+    partition_table, _ = gen.PartitionTable.from_file(f)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 208, in from_file
+    return cls.from_csv(str_data), False
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kgasp\esp\v5.5.1\esp-idf\components\partition_table\gen_esp32part.py", line 229, in from_csv
+    raise InputError(
+gen_esp32part.InputError: Error at line 5: Size field can't be empty
+Please check extra_partition_subtypes.inc file in build/config directory
+CMake Warning in managed_components/espressif__esp-dl/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/esp-idf/espressif__esp-dl/CMakeFiles/__idf_espressif__esp-dl.dir/./
+
+  has 188 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    dl/base/isa/esp32p4/dl_esp32p4_s16_unaligned_depthwise_conv2d.S.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+

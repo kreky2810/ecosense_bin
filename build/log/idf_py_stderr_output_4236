@@ -1,0 +1,15 @@
+Command: ninja -v partition-table
+CMake Warning in managed_components/espressif__esp-dl/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/esp-idf/espressif__esp-dl/CMakeFiles/__idf_espressif__esp-dl.dir/./
+
+  has 188 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    dl/base/isa/esp32p4/dl_esp32p4_s16_unaligned_depthwise_conv2d.S.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+

@@ -1,0 +1,19 @@
+Command: ninja all
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\build\bootloader\esp-idf\esptool_py && C:\Users\kgasp\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/kgasp/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x2000 C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5c20 bytes. 0x3e0 bytes (4%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/ai_infer.cpp.obj
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating esp-idf/esp_system/ld/sections.ld
+[7/10] Building C object CMakeFiles/video_lcd_display.elf.dir/project_elf_src_esp32p4.c.obj
+[8/10] Linking CXX executable video_lcd_display.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32p4 image...
+Merged 3 ELF sections
+Successfully created esp32p4 image.
+Generated C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/video_lcd_display.bin
+[10/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\build\esp-idf\esptool_py && C:\Users\kgasp\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/kgasp/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/partition_table/partition-table.bin C:/Users/kgasp/Documents/projekti/JC8012P4A1C_I_W_Y/JC8012P4A1C_I_W_Y/1-Demo/idf-examples/video_lcd_display_python/build/video_lcd_display.bin"
+video_lcd_display.bin binary size 0x129740 bytes. Smallest app partition is 0x400000 bytes. 0x2d68c0 bytes (71%) free.

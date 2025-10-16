@@ -1,0 +1,155 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp-dl:
+    component_hash: 996c9d5ae81ebbb38d3e70314cccdae6e2ae0908842fad3512cff60db734635c
+    dependencies:
+    - name: espressif/esp_new_jpeg
+      registry_url: https://components.espressif.com
+      require: private
+      version: ^0.6.1
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32
+    - esp32s3
+    - esp32p4
+    version: 3.1.5
+  espressif/esp_cam_sensor:
+    dependencies: []
+    source:
+      path: C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_cam_sensor
+      type: local
+    version: 0.9.0
+  espressif/esp_h264:
+    component_hash: 9ef679cf3d64c4ac1523a27fe0c2cbce3b627d3f4c99556442d6712caa5f2b31
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32s3
+    - esp32p4
+    version: 1.1.3
+  espressif/esp_ipa:
+    component_hash: 7547b050a99351a85aaba8ba38211c36fd4769c2ae3e570fa330dc90dfd2704c
+    dependencies:
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.*
+    - name: idf
+      require: private
+      version: '>=5.4'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32p4
+    version: 0.2.0
+  espressif/esp_lcd_ek79007:
+    component_hash: 2052367247fc5e384db33da7bc2fcf012623fe45f9c612d8a0f9788ec649f215
+    dependencies:
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.*
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32p4
+    version: 1.0.3
+  espressif/esp_lcd_jd9365:
+    dependencies: []
+    source:
+      path: C:\Users\kgasp\Documents\projekti\JC8012P4A1C_I_W_Y\JC8012P4A1C_I_W_Y\1-Demo\idf-examples\video_lcd_display_python\components\espressif__esp_lcd_jd9365
+      type: local
+    version: 1.0.2
+  espressif/esp_new_jpeg:
+    component_hash: e6af208a875abd0ecfc0213d3751a11b504b463ebde6930f24096047925fa5c1
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32
+    - esp32s2
+    - esp32s3
+    - esp32p4
+    - esp32c2
+    - esp32c3
+    - esp32c5
+    - esp32c6
+    version: 0.6.1
+  espressif/esp_sccb_intf:
+    component_hash: 71e3def402f6193a23c599bdde4fa0b544ca2b1f63608b6d0ec2bee3cd9a1c33
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.0.5
+  espressif/esp_video:
+    component_hash: 37f7a3b16aa842e612180d5a4698db1c3bc36142a0b78664eb4ffe67c8cd0510
+    dependencies:
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.*
+    - name: espressif/esp_cam_sensor
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.9.*
+    - name: espressif/esp_h264
+      registry_url: https://components.espressif.com
+      require: private
+      version: '>=1.0.3'
+    - name: espressif/esp_ipa
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.2.*
+    - name: idf
+      require: private
+      version: '>=5.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32p4
+    version: 0.8.0~3
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- espressif/cmake_utilities
+- espressif/esp-dl
+- espressif/esp_lcd_ek79007
+- espressif/esp_lcd_jd9365
+- espressif/esp_sccb_intf
+- espressif/esp_video
+- idf
+manifest_hash: 717b4b1fdb3ece14eef15ef71c7a24fb66a84d516752c69c150a17ccfd1d25a1
+target: esp32p4
+version: 2.0.0
